@@ -1,0 +1,113 @@
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.section-title span {
+    color: #007bff;
+}
+
+.platforms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.platform {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.platform img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.platform h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.platform p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    color: white;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.back-btn:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+#coding-platforms .container {
+    text-align: center;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 1200px) {
+    .platform {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .platform {
+        width: 100%;
+    }
+}
